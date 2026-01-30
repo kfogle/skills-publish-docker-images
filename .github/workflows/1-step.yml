@@ -60,7 +60,7 @@ jobs:
       - name: Lint docker-publish.yml with actionlint
         id: actionlint-check
         continue-on-error: true
-        uses: raven-actions/actionlint # v2.1.0
+        uses: raven-actions/actionlint@v2 # v2.1.0
         with:
           files: .github/workflows/docker-publish.yml
 
